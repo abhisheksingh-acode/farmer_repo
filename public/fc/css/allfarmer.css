@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.content .container .uppercol p span{
+    color:darkcyan;
+    font-size:15px;
+    font-weight: 500;
+    
+}
+.table{
+    box-shadow: 0px 2px 4px 1px rgba(196,195,195,0.20);
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(196,195,195,0.20);
+    -moz-box-shadow: 0px 2px 4px 1px rgba(196,195,195,0.20);
+}
+.uid{
+    width: 130px;
+}
+.phone{
+    width: 130px;
+}
+.date{
+    width: 130px;
+}
+.action{
+    width: 150px;
+    white-space: nowrap; 
+    text-align: center;
+}
+.message{ 
+    width: 300px;
+}
+
+.deactive{
+    
+}
+.payhead{
+    width: 300px;
+}
+.xscroll{
+    overflow-x: scroll;
+}
+.xscroll::-webkit-scrollbar{
+    display: none;
+}
+
+

@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content .container .uppercol p span{
+    color:darkcyan;
+    font-size:15px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+/* support css */
+
+.ticket-popup{
+    position: absolute;
+    height: 275px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(223, 215, 215);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.ticket-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.request-popup{
+    position: absolute;
+    height: 275px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(223, 215, 215);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.request-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+/* inventary css */
+
+.drum:hover{
+    box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.75);
+-webkit-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.75);
+-moz-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.75);
+}
+.drum{border-radius: 15px;}
+.kg:hover{
+    box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.75);
+-webkit-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.75);
+-moz-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.75);
+}
+a.btn.drum-add.btn-primary {
+    background: #fff;
+    border-color: #000;
+    color: #000;
+}
+a.btn.drum-add.btn-primary:hover { background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;}
+a.btn.kg-add.btn-primary {
+    background: #fff;
+    border-color: #000;
+    color: #000;
+}
+a.btn.kg-add.btn-primary:hover{    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;}
+.kg{border-radius: 15px;}
+.drum-popup{
+    position: absolute;
+    height: 275px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(236, 234, 234);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.drum-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+
+.kg-popup{
+    position: absolute;
+    height: 275px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(236, 234, 234);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.kg-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+@media screen and (max-width:475px) {
+    .ticket-popup{
+        width: 350px;
+    }
+
+    .request-popup{
+        width: 350px;
+    }
+    
+}

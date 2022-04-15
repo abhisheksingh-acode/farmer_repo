@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content .container .uppercol p span{
+    color:darkcyan;
+    font-size:15px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+/* support css */
+
+.ticket-popup{
+    position: absolute;
+    height: 275px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(223, 215, 215);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.ticket-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.request-popup{
+    position: absolute;
+    height: 335px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(223, 215, 215);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.request-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+/* inventary css */
+
+.drum{
+    box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.25);
+-webkit-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.25);
+-moz-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.25);
+border-radius: 5px;
+}
+.kg{
+    box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.25);
+-webkit-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.25);
+-moz-box-shadow:  3px 3px 8px 3px  rgba(174,167,167,0.25);
+border-radius: 5px;
+}
+
+.drum-popup{
+    position: absolute;
+    height: 275px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(236, 234, 234);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.drum-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+
+.kg-popup{
+    position: absolute;
+    height: 275px;
+    border-radius: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+    background-color: rgb(236, 234, 234);
+    transform: translate(-50%,-50%) scale(0);
+    left: 50%;
+    top: 50%;
+}
+.kg-popup.show{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+
+@media screen and (max-width:475px) {
+    .ticket-popup{
+        width: 350px;
+    }
+    .request-popup{
+        width: 350px;
+    }
+}
