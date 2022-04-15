@@ -4,7 +4,7 @@
     <div class=" main-content flex-wrap flex-md-nowrap p-4 ">
         <div class=" mx-5">
             <div class="col-12 uppercol my-5 d-flex justify-content-between">
-                <h4 class="text-nowrap">Logistics Pickup 2</h4>
+                <h4 class="text-nowrap">Logistics Pickup</h4>
                 <div class="d-flex ms-2 mx-sm-5">
                     <a class="btn btn-primary ms-2" role="button">Print All</a>
                 </div>
@@ -19,7 +19,7 @@
                             <h5 class="modal-title" id="exampleModalLabel">Logistics Pickup</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
                                 style="
-                                                                                                                                                                                                                        float: right;    font-size: 10px;"></button>
+                                                                                                                                                                                                                            float: right;    font-size: 10px;"></button>
                         </div>
                         <div class="modal-body" style="padding: 20px 30px;">
                             <form class="col-12">
@@ -49,14 +49,14 @@
                             <div class="mb-3 col-9">
                                 <a href="#" class="btn btn-primary allocate-permission px-3 px-sm-5 pt-0 fs-4 py-0 my-2"
                                     style="
-                                                                                                                                                                                                                                padding: 5px 20px !important;font-size: 15px !important;float: right;background: #000 !important;color: #fff !important;">Cancel</a>
+                                                                                                                                                                                                                                    padding: 5px 20px !important;font-size: 15px !important;float: right;background: #000 !important;color: #fff !important;">Cancel</a>
                             </div>
                             <div class="mb-3 col-3">
                                 <a href="#" class="btn btn-primary allocate-permission px-3 px-sm-5 pt-0 fs-4 py-0 my-2"
                                     style="
-                                                                                                                                                                                                                                float: right;padding: 5px 20px !important;
-                                                                                                                                                                                                                                font-size: 15px !important;background: #0d6efd !important;
-                                                                                                                                                                                                                                color: #fff !important; border-color: #0d6efd !important; ">Save</a>
+                                                                                                                                                                                                                                    float: right;padding: 5px 20px !important;
+                                                                                                                                                                                                                                    font-size: 15px !important;background: #0d6efd !important;
+                                                                                                                                                                                                                                    color: #fff !important; border-color: #0d6efd !important; ">Save</a>
                             </div>
                         </div>
                     </div>
